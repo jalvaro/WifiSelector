@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Form"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/bg"
+    android:baselineAligned="false"
+    android:gravity="center|center_horizontal|center_vertical|top"
+    android:orientation="vertical" >
+
+    <ToggleButton
+        android:id="@+id/buttonConnect"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" android:textOn="Disconnect to wireless" android:textOff="Connect to wireless" android:layout_marginTop="20dp"/>
+
+<!--     <Button -->
+<!--         android:id="@+id/buttonPressMe" -->
+<!--         android:layout_width="238dp" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginBottom="10dp" -->
+<!--         android:keepScreenOn="true" -->
+<!--         android:soundEffectsEnabled="true" -->
+<!--         android:text="Press Me!" /> -->
+
+<!--     <Button -->
+<!--         android:id="@+id/buttonClose" -->
+<!--         style="?android:attr/buttonStyleSmall" -->
+<!--         android:layout_width="93dp" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:ellipsize="start" -->
+<!--         android:soundEffectsEnabled="true" -->
+<!--         android:text="Close App" /> -->
+
+    <Button
+        android:id="@+id/refreshButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Button" android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/available_networks"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/availableNetworks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" android:textSize="20sp" android:textStyle="bold" android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvNetworks"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:drawSelectorOnTop="true">
+
+    </ListView>
+
+</LinearLayout>

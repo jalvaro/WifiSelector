@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wifi Selector</string>
+    <string name="connect">Connect</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="scanning">Scanning: %1$s</string>
+    <string name="wifi_enabled">wifi enabled</string>
+    <string name="wifi_disabled">wifi disabled</string>
+    <string name="type_password">Type the password:</string>
+    <string name="connected">You have succesfully connected to %1$s</string>
+    <string name="not_connected">You have not been able to connect to %1$s</string>
+    <string name="refresh">Refresh networks</string>
+    <string name="available_networks">Available networks:</string>
+</resources>
