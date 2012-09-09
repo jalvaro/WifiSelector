@@ -1,0 +1,14 @@
+
+bin/AndroidManifest.xml
+
+.classpath
+
+*.class
+
+gen/com/jalvaro/wifiselector/BuildConfig.java
+
+gen/com/jalvaro/wifiselector/R.java
+
+.settings/org.eclipse.ltk.core.refactoring.prefs
+
+.settings/org.eclipse.jdt.core.prefs
